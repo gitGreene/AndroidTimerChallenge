@@ -3,7 +3,6 @@ package codemaestro.co.chronometertest;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.CountDownTimer;
-import android.os.SystemClock;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -12,7 +11,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    private CustomChronometer customChronometer;
     private TextView timerSecond, timerMinute, timerHour;
     private boolean timerRunning;
     private CountDownTimer timerValue;
